@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Inter;
+}
+#menu-superior{
+    background-color: #303030;
+}
+#titulo-menu-superior{
+    margin-left: 60px;
+    padding-top: 200px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+#legenda-menu-superior{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 60px;
+    padding-bottom: 150px;
+    color: #FFFFFF;
+}
+#menu-informacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 60px;
+    padding-top: 100px;
+    background-color: #F9F9F9;
+    padding-bottom: 70px;
+}
+.numero-info{
+    font-weight: 600;
+    font-size: 40px;
+}
+.info{
+    font-weight: 400;
+    font-size: 20px;
+}
+.info, .numero-info{
+    margin-left: 150px;
+}
+#secao-historia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #FFF;
+    padding-bottom: 110px;
+    
+}
+#titulo-secao-historia{
+    margin-top: 275px;
+    margin-left: 75px;
+    font-weight: 500;
+    font-size: 40px;
+}
+#legenda-secao-historia{
+    padding-left: 75px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    width: 735px;
+    height: 161px;
+}
+#imagem1{
+    margin-top: 100px;
+    width: 510px;
+    height: 605px;
+}
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    padding-bottom: 30px;
+}
+#tituloformulario{
+    color: #FFFFFF;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+input{
+    width: 500px;
+    height: 50px; 
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+    margin: 15px;
+    border: 0px;
+    padding-left: 20px;
+}
+button{
+    width: 286px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #C07212;
+    color: #FFF;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0;
+}
+button:hover{
+    background-color: #ff8c008c;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 20px #7a44018c ;
+    transition-duration: 0.3s;
+}
