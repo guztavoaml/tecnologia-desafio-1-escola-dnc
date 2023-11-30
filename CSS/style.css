@@ -2,14 +2,14 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: Inter;
+    font-family: "Inter";
 }
 #menu-superior{
     background-color: #303030;
 }
 #titulo-menu-superior{
-    margin-left: 60px;
-    padding-top: 200px;
+    margin-left: 50px;
+    padding-top: 50px;
     font-weight: 600;
     font-size: 40px;
     letter-spacing: -1px;
@@ -19,18 +19,16 @@
     padding-top: 20px;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 60px;
-    padding-bottom: 150px;
+    margin-left: 50px;
+    padding-bottom: 100px;
     color: #FFFFFF;
 }
 #menu-informacional{
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    padding-left: 60px;
-    padding-top: 100px;
-    background-color: #F9F9F9;
-    padding-bottom: 70px;
+    padding: 50px;
+    background-color: #EAECE5;
 }
 .numero-info{
     font-weight: 600;
@@ -48,28 +46,28 @@
     grid-auto-flow: column;
     columns: auto;
     background-color: #FFF;
-    padding-bottom: 110px;
+    padding-bottom: 50px;
+    align-items:center;
     
 }
 #titulo-secao-historia{
-    margin-top: 275px;
-    margin-left: 75px;
+    margin-top: 50px;
+    margin-left: 50px;
     font-weight: 500;
     font-size: 40px;
 }
 #legenda-secao-historia{
-    padding-left: 75px;
-    padding-top: 30px;
+    margin-left: 50px;
+    padding-top: 20px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
     width: 735px;
     height: 161px;
 }
 #imagem1{
     margin-top: 100px;
-    width: 510px;
-    height: 605px;
+    width: 380px;
 }
 #formulario{
     text-align: center;
@@ -78,22 +76,22 @@
 }
 #tituloformulario{
     color: #FFFFFF;
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
 input{
-    width: 500px;
-    height: 50px; 
+    width: 300px;
+    height: 40px; 
     background-color: #FFFFFF; 
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 15px;
     border: 0px;
     padding-left: 20px;
 }
 button{
-    width: 286px;
-    height: 50px;
-    border-radius: 10px;
+    width: 256px;
+    height: 40px;
+    border-radius: 5px;
     background-color: #C07212;
     color: #FFF;
     margin-top: 20px;
@@ -103,7 +101,7 @@ button{
 button:hover{
     background-color: #ff8c008c;
     color: white;
-    transform: translateY(-4px);
-    box-shadow: 0px 15px 20px #7a44018c ;
-    transition-duration: 0.3s;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081 ;
+    transition-duration: 0.5s;
 }
